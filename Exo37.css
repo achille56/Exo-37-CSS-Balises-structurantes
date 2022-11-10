@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu_haut{
+    display: flex;
+    background-color: rgba(124,124,124,0.41);
+    justify-content: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family: Roboto Light sans-serif;
+    padding: 1rem;
+}
+
+#menu_haut li{
+    list-style-type: none;
+}
+
+#menu_haut a{
+    display: block;
+    min-width: 200px;
+
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: rgba(37,148,255,0.71);
+    color: white;
+    text-decoration-line: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#menu_haut a:hover{
+    background-color: red;
+}
+
+#menu_gauche{
+    background-color: rgba(78,124,2,0.46);
+    width: 10%;
+
+
+}
+
+#menu_gauche a{
+    min-width: 150px;
+    display: block;
+    text-decoration-line: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgba(39,124,37,0.89);
+
+}
+
+#menu_gauche li{
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+#section_principale{
+    background-color: rgba(124,124,124,0.71);
+    width: 80%;
+    position: relative;
+    left: 15%;
+    bottom: 500px;
+    padding: 3rem;
+    border-radius: 4px;
+}
+
+.section1 ,.section2 ,.section3{
+    display: inline-block;
+    background-color: darkcyan;
+    width: 30%;
+    border-radius: 4px;
+    text-indent: 5px;
+    margin: 1.5rem;
+
+}
+p{
+    margin: 4rem;
+}
+
+.agenda{
+    background-color: chocolate;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.section3{
+    width: 80%;
+}
+
+.théâtre ,.médiathèque, .étangs_des_moines{
+    display: inline-block;
+    margin: 1rem;
+    padding: 4rem;
+}
+
+.agenda p{
+    font-weight: bold;
+    font-family: Courier New sans-serif;
+    font-size: 20px;
+}
+
+#actualités{
+    background-color: rgba(37,148,255,0.71);
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1rem;
+    border-radius: 6px;
+    font-style: italic;
+}
+
+footer{
+    background-color: grey;
+    height: 200px;
+}
+
+footer p{
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 15px;
+}
+
